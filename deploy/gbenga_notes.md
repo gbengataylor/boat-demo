@@ -21,3 +21,7 @@ add annotations
     image.openshift.io/triggers: >-
       [{"from":{"kind":"ImageStreamTag","name":"boat-group:latest","namespace":"boats-demo"},"fieldPath":"spec.template.spec.containers[?(@.name==\"boat-group\")].image","pause":"false"}]   
 ```
+08
+
+does the username actually matter since you're telling it to preload the git repo when the notebook is selected
+(can't mix '_' with '-")
