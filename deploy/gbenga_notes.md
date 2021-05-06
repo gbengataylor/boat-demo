@@ -1,5 +1,5 @@
 
-04 doesn't kick off build after applying
+04 doesn't kick off build after applying but 03 does...is it because it is s2i from source vs docker strategy
 may need oc start-build s2i-ubi8-py38-opengl
 
 05- 
