@@ -12,12 +12,12 @@ add annotations
 06
 ```yaml
     image.openshift.io/triggers: >-
-      [{"from":{"kind":"ImageStreamTag","name":"boat-identify:latest","namespace":"boats-demo"},"fieldPath":"spec.template.spec.containers[?(@.name=="boat-identify")].image","pause":"false"}]   
+      [{"from":{"kind":"ImageStreamTag","name":"boat-identify:latest","namespace":"boats-demo"},"fieldPath":"spec.template.spec.containers[?(@.name==\"boat-identify\")].image","pause":"false"}]   
 ```
 
 
 07
 ```yaml
     image.openshift.io/triggers: >-
-      [{"from":{"kind":"ImageStreamTag","name":"boat-group:latest","namespace":"boats-demo"},"fieldPath":"spec.template.spec.containers[?(@.name=="boat-group")].image","pause":"false"}]   
+      [{"from":{"kind":"ImageStreamTag","name":"boat-group:latest","namespace":"boats-demo"},"fieldPath":"spec.template.spec.containers[?(@.name==\"boat-group\")].image","pause":"false"}]   
 ```
