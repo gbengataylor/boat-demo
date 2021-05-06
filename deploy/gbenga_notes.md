@@ -20,6 +20,7 @@ add annotations
 ```yaml
     image.openshift.io/triggers: >-
       [{"from":{"kind":"ImageStreamTag","name":"boat-group:latest","namespace":"boats-demo"},"fieldPath":"spec.template.spec.containers[?(@.name==\"boat-group\")].image","pause":"false"}]   
+      
 ```
 08
 
@@ -27,3 +28,9 @@ does the username actually matter since you're telling it to preload the git rep
 (can't mix '_' with '-")
 
 is the point to have a default profile per user? or one for all? yes it's per user..how can we make a default profile for all?
+
+
+running first notebook
+had to install app package
+file path is wrong
+
