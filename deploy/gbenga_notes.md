@@ -25,3 +25,5 @@ add annotations
 
 does the username actually matter since you're telling it to preload the git repo when the notebook is selected
 (can't mix '_' with '-")
+
+is the point to have a default profile per user? or one for all?
