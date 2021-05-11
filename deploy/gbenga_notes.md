@@ -30,6 +30,14 @@ does the username actually matter since you're telling it to preload the git rep
 is the point to have a default profile per user? or one for all? yes it's per user..how can we make a default profile for all?
 
 
+TODO
+remove hardcoded things like namespace
+use env vars
+ansible?
+
+Notebook
+
+
 running first notebook
 had to install app package
 file path is wrong
